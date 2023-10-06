@@ -1,25 +1,28 @@
 body{
-    background-image: url('./is2.jpg');
-    background-size: cover;
+    background-image: url('./Logging_in.gif');
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
-    justify-content: center;
-    background-color:rgb(35, 225, 228);
+    /* justify-content: center; */
+    background-color:rgb(152, 224, 225);
     padding:0px;
     margin: 0px;
     background-attachment: fixed;
     overflow: hidden;
+    /* backdrop-filter: blur(5px);     */
+    
 }
 .container{
-    /* background-color: rgba(232, 13, 13, 0.25); */
+    background-color: rgba(233, 228, 228, 0.477);
     width: 400px;
     height: 450px;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 185px;
     border-radius: 10px;
+    margin-left: 1100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.25);
-    opacity: 1.5;
+    /* opacity: 0.5; */
 }
 
 .buttons{
@@ -28,7 +31,7 @@ body{
     margin-top: 400px;  
 }
 
-#signUp{
+/* #signUp{
     margin-left: 25px;
     width:350px;
     height: 50px;
@@ -36,23 +39,33 @@ body{
     border-radius: 10px;
     color: white;
     position: absolute;
-    margin-top: -100px;
+    margin-top: -60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 
-}
+} */
 
 #pass-link{
-    margin-left: 45px;  
+    margin-left: 30px;  
     border-radius: 10px;
     color: white;
-    margin-top: 250px;
+    margin-top: 245px;
     position: absolute;
-    font-size: 25px;
-    
+    font-size: 15px;
+   
 }
-#link{
-    text-decoration: none;
+#link,#slink{
+    /* text-decoration: none; */
+    color: rgb(0, 5, 8);
+}
+#signup-link{
+    margin-left: 70px;  
+    border-radius: 10px;
+    color: rgb(19, 18, 18);
+    margin-top: 350px;
+    position: absolute;
+    font-size: 20px;
+    display: flex;
 }
 
 #heading{
@@ -67,36 +80,36 @@ body{
     /* justify-content: center;
     align-items: center;
     display: flex; */
-    margin-left: 45px;
+    margin-left: 25px;
     margin-top: 140px;
     position: absolute;
-    width: 300px;
+    width:350px;
     height: 50px;
     border-radius: 10px;
     opacity: 1.5;
 }
 #passWord{
-    margin-left: 45px;
+    margin-left: 25px;
     margin-top: 180px;
     position: absolute;
-    width: 300px;
+    width:350px;
     height: 50px;
     border-radius: 10px;
 
 }
 
 #userName:hover{
-    border-color: rgba(24, 197, 212, 0.936);
-    box-shadow: 2px 2px 2px 4px rgba(24, 197, 212, 0.936);
+    border-color: rgba(247, 249, 250, 0.936);
+    box-shadow: 0 4px 8px 0 rgba(247, 249, 250, 0.936);
 }
 
 #userName:focus{
-    border-color: rgba(24, 197, 212, 0.936);
-    box-shadow: 0 4px 8px 0 rgba(24, 197, 212, 0.936);
+    border-color: rgba(247, 249, 250, 0.936);
+    box-shadow: 0 4px 8px 0 rgba(247, 249, 250, 0.936);
 }
 #passWord:hover{
-    border-color: rgba(24, 197, 212, 0.936);
-    box-shadow: 0 4px 8px 0 rgba(24, 197, 212, 0.936);
+    border-color: rgba(247, 249, 250, 0.936);
+    box-shadow: 0 4px 8px 0 rgba(247, 249, 250, 0.936);
 }
 
 #signUp:hover{
@@ -105,7 +118,7 @@ body{
  color: black;
 }
 
-#link:hover{
+#link:hover,#slink:hover{
     color: rgb(205, 76, 115);
 
 }
@@ -120,5 +133,21 @@ body{
     opacity: 1.5;
 }
 
-
-
+#login{
+    margin-left: 25px;
+    width:350px;
+    height: 50px;
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    margin-top: 275px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+#login:hover{
+    background-color: rgb(204, 224, 224);
+    
+    color: black;
+   }
