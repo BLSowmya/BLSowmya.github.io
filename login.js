@@ -1,7 +1,16 @@
-// Get the width and height of the window
-var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+const username=document.getElementById('userName');
+const password=document.getElementById('passWord');
+const login=document.getElementById('login');
 
-// Display the dimensions
-console.log("Window Width: " + windowWidth);
-console.log("Window Height: " + windowHeight);
+login.addEventListener("click",()=>{
+    const enteredUsername = username.value;
+    const enteredPassword = password.value;
+
+    if (enteredUsername === 'sowmya' && enteredPassword === 'sowmya') {
+        window.open("https://bmsit.ac.in/", "_blank");
+    } else {
+        alert('Incorrect username or password. Please try again.');
+    }
+});
+
+
