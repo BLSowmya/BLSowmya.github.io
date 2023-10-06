@@ -1,0 +1,124 @@
+body{
+    background-image: url('./is2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(35, 225, 228);
+    padding:0px;
+    margin: 0px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.container{
+    /* background-color: rgba(232, 13, 13, 0.25); */
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.25);
+    opacity: 1.5;
+}
+
+.buttons{
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;  
+}
+
+#signUp{
+    margin-left: 25px;
+    width:350px;
+    height: 50px;
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    margin-top: -100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+#pass-link{
+    margin-left: 45px;  
+    border-radius: 10px;
+    color: white;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 25px;
+    
+}
+#link{
+    text-decoration: none;
+}
+
+#heading{
+    margin: 0%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+#userName{
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    margin-left: 45px;
+    margin-top: 140px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 1.5;
+}
+#passWord{
+    margin-left: 45px;
+    margin-top: 180px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+#userName:hover{
+    border-color: rgba(24, 197, 212, 0.936);
+    box-shadow: 2px 2px 2px 4px rgba(24, 197, 212, 0.936);
+}
+
+#userName:focus{
+    border-color: rgba(24, 197, 212, 0.936);
+    box-shadow: 0 4px 8px 0 rgba(24, 197, 212, 0.936);
+}
+#passWord:hover{
+    border-color: rgba(24, 197, 212, 0.936);
+    box-shadow: 0 4px 8px 0 rgba(24, 197, 212, 0.936);
+}
+
+#signUp:hover{
+ background-color: rgb(204, 224, 224);
+ 
+ color: black;
+}
+
+#link:hover{
+    color: rgb(205, 76, 115);
+
+}
+
+
+#test{
+    width: 100px;
+    height: 100px;
+}
+
+#name{
+    opacity: 1.5;
+}
+
+
+
